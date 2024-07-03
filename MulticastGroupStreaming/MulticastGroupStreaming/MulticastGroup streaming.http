@@ -1,0 +1,6 @@
+@MulticastGroup_streaming_HostAddress = http://localhost:5274
+
+GET {{MulticastGroup_streaming_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
